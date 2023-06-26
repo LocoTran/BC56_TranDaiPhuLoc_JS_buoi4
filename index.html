@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Bài 1</h2>
+    <div class="form-group">
+      <label for="">Số thứ 1</label>
+      <input type="text" class="form-control" id="so-thu-1">
+    </div>
+    <div class="form-group">
+      <label for="">Số thứ 2</label>
+      <input type="text" class="form-control" id="so-thu-2">
+    </div>
+    <div class="form-group">
+      <label for="">Số thứ 3</label>
+      <input type="text" class="form-control" id="so-thu-3">
+    </div>
+    <button class="btn btn-warning" onclick="sapxep()">Sắp xếp 3 số</button>
+    <div id="kqsapxep" class="mt-3 alert-warning"></div>
+
+    <h2>Bài 2</h2>
+    <div class="form-group">
+      <label for="">Ai đang sử dụng máy tính?</label>
+      <select class="form-control" id="nguoi-su-dung">
+        <option value="B">Bố</option>
+        <option value="M">Mẹ</option>
+        <option value="A">Anh Trai</option>
+        <option value="E">Em gái</option>
+      </select>
+    </div>
+    <button class="btn btn-success" onclick="chao()">Xác nhận</button>
+    <div id="kqchao" class="alert-info mt-3"></div>
+
+    <h2>Bài 3</h2>
+    <div class="form-group">
+      <label for="">Số đầu</label>
+      <input type="text" class="form-control" id="so-dau">
+    </div>
+    <div class="form-group">
+      <label for="">Số giữa</label>
+      <input type="text" class="form-control" id="so-giua">
+    </div>
+    <div class="form-group">
+      <label for="">Số cuối</label>
+      <input type="text" class="form-control" id="so-cuoi">
+    </div>
+    <button class="btn btn-danger" onclick="phanloai()">Phân loại các số</button>
+    <div id="kqphanloai" class="mt-3 text-white bg-dark"></div>
+
+    <h2>Bài 4</h2>
+    <div class="form-group">
+      <label for="">Nhập cạnh dài nhất</label>
+      <input type="text" class="form-control" id="canh-1">
+    </div>
+    <div class="form-group">
+      <label for="">Nhập cạnh thứ 2</label>
+      <input type="text" class="form-control" id="canh-2">
+    </div>
+    <div class="form-group">
+      <label for="">Nhập cạnh thứ 3</label>
+      <input type="text" class="form-control" id="canh-3">
+    </div>
+    <button class="btn btn-success" onclick="tamgiac()">Đây là tam giác gì?</button>
+    <div id="kqtamgiac" class="mt-3 alert-danger"></div>
+  </div>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
